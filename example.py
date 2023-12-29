@@ -1,4 +1,4 @@
-from account_creator import Account_creator
+from account_creator import AccountCreator
 
 if __name__ == '__main__':
     # The recruit link, default is mine.
@@ -13,7 +13,7 @@ if __name__ == '__main__':
     batch_num = 5
 
     # create account
-    account_creator = Account_creator()
+    account_creator = AccountCreator()
     account_creator.account_creator(
         recruit_link=recruit_link,
         signup_email=signup_email,

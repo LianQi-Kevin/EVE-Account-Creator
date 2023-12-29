@@ -26,7 +26,7 @@ def log_set(Log_level=logging.INFO):
     logger.addHandler(ch)
 
 
-class Account_creator(object):
+class AccountCreator(object):
     def __init__(self, YesCaptcha_path="YesCaptcha_Pro1.8", Log_level=logging.INFO, json_save_path="created_account"):
         """
         :param YesCaptcha_path: YesCaptcha plugin path
